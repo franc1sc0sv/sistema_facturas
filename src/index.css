@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@media print {
+  .content-no-printable {
+    display: none;
+  }
+  .a {
+    justify-content: center !important;
+  }
+}
